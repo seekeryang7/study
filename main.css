@@ -1,211 +1,46 @@
-.fisrt{
-    width: 100%;
-    height: 710px;
-    background-image: url("https://s1.best-wallpaper.net/wallpaper/m/1605/Winter-snow-lake-sky-clouds-sunset-glow-mountain_m.webp");
+.container {    
+    background-image: url("https://storage.googleapis.com/creator-academy-assets/music-partners/digital-rights-home.jpg");
     background-repeat: no-repeat;
-    background-size: 100%, 100%;
-    color: white;
-}
-nav {
-    height: 50px;
-    border-bottom: 0.4px solid white;
-    font-size: 23px;
-    color: white;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav-logo{
-    margin: 0 800px 0 100px;
-}
-.nav-content{
-    font-size:16px;
-}
-span{
-    padding: 15px;
-}
-.home{
-    color:yellowgreen;
-}
-
-.first-main{
-    padding-top: 50px;
-    justify-items: center;
+    background-size: 100% 100%;
     width: 100%;
-}
-h1{
-    padding-top: 100px;
-    font-size:80px;
-    text-align: center;
-}
-h4{
-    font-size:16px;
-    text-align: center;
-}
-
-.button{
-    width: 100%;
-}
-button{
-    background-color: yellowgreen;
-    border: none;
-    border-radius: 30px;
-    padding:8px;
-    font-size:18px;
-    height: 50px;
-    width: 200px;
-    margin: 50px auto;
-    text-align:center;
-    justify-items: center;
-    display:inline-block;
-}
-.gi-3x{
-    padding-top:70px;
-    font-size: 3em;
-    margin: 0 auto;
-}
-.second{
-    height: 330px;
-    width: 100%;
-    background-color: yellowgreen;
-    color:white;
-}
-h2{
-    font-size:40px;
-    text-align: center;
-}
-.third {
-    width: 100%;
-    height: 600px;
-    display:flex;
-}
-.third-img{
-    width:50%;
-    height: 500px;
-    overflow: hidden;
+    height: 720px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
-.img-mike{
-    height: 300px;
-    overflow:hidden;
-    border-radius: 50%; 
-}
-.third-text{
-    padding-top: 100px;
-    width:50%;
+
+img {
+    width: 100%;
     height: 100%;
 }
-h3{
-    font-size:25px;
-    text-align:center;
-}
-.third-text h2{
-    text-align: left;
+
+.A{
+width: 150px;
+height: 100px;
+padding: 10px;
 }
 
-.third-text h3{
-    text-align: left;
-    color:gray;
-}
-.fourth{
-    width: 100%;
-    height: 600px;
-    background-color:black;
-    color:white;
-    display:flex;
-}
-.fourth-img{
-    width:50%;
-    height: 500px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.img-pic{
-    height: 300px;
-    overflow:hidden;
-    border-radius: 50%; 
-}
-.fourth-text{
-    padding-top: 100px;
-    width:50%;
-    height: 100%;
-    padding-left: 150px;
-}
-h3{
-    font-size:25px;
-    text-align:center;
-}
-.fourth-text h2{
-    text-align: left;
-}
-
-.fourth-text h3{
-    text-align: left;
-    color:gray;
-}
-.fifth{
-    width: 100%;
-    height: 150px;
-    color:white;
-    display: flex;
-    font-size:40px;
-    text-align: center;
-    line-height: 150px;
-}
-.fifth-1{
-    width: 33.3%;
-    height: 150px;
-    overflow:hidden;
-    background-image: url("https://t1.daumcdn.net/cfile/tistory/275B9A33534B25DC19");
-    background-repeat: no-repeat;
-    background-size:100%, 100%;
-}
-.fifth-2{
-    width: 33.3%;
-    height: 150px;
-    overflow:hidden;
-    background-image: url("https://publy.imgix.net/images/2018/01/30/1517297447_d6da57dfb7c771c874161fcd9463198c.jpeg?fm=pjpg");
-    background-repeat: no-repeat;
-    background-size: 100%, 100%
-}
-.fifth-3{
-    width: 33.3%;
-    height: 150px;
-    overflow:hidden;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Q_UWaMdFKYi_IPTbA3M6LNVm3cz4YEn0FrNsxrW8joQj4r-K");
-    background-repeat: no-repeat;
-    background-size: 100%, 100%
-}
-.sixth{
-    height: 400px;
-    width: 100%;
-}
-.seven{
-    color: white;
-    margin: 0;
-    padding: 0;
-    height: 300px;
-    width: 100%;
-    background-color: yellowgreen;
-    text-align: center;
-}
-.seven-content{
-    width: 300px;
-    height: 300px;
-    padding-top: 30px;
-    margin: auto;
-}
-.icon-margin{
-    margin: 0;
-    padding:0;
-}
-.eight{
-    text-align: center;
-    width: 100%;
+button {
+    width: 120px;
     height: 100px;
-    line-height: 100px;
+    background-color: rgba(0,0,0,0.3);
+    border: 4px solid black;
+    border-radius: 15%;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+}
+h2 {
+    color: yellow;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
+    opacity: 1;
 }

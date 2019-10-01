@@ -1,102 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Business2</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/main.css">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="./main.css">
+    <script src="main.js"></script>
+    <title>자스과제1</title>
 </head>
 
 <body>
-    <div class="fisrt">
-        <nav>
-            <div class="nav-logo"><span class="glyphicon glyphicon-fire"></span> LOGO </div>
-            <div class="nav-content">
-                <span class="home">Home</span>
-                <span>Products</span>
-                <span>Services</span>
-                <span>Contact</span>
-            </div>
-        </nav>
+    <div class="container">
 
-        <div class="first-main">
-            <h1>Dramatically Engage</h1>
-            <h3>Objectively innovate empowered manufactured products whereas parallel platforms.</h3>
-            <div class="button"><button>ENGAGE NOW</button></div>
+        <div class="A">
+            <audio id="audio_A" src="./sounds/clap.wav"></audio>
+            <button onclick="play_A()">
+                <h1>A</h1>
+                <h2>CLAP</h2>
+            </button>
         </div>
-    </div>
-    <div class="second">
-        <span class="glyphicon glyphicon-apple gi-3x"></span>
-        <h2>Completely synergize resource taxing relationships</h2>
-        <h4>Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate
-            resource-<br>
-            leveling customer service for state of the art customer service.</h4>
-    </div>
-    <div class="third">
-        <div class="third-img">
-            <img class="img-mike"
-                src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                alt="마이크">
-        </div>
-        <div class="third-text">
-            <h2>Best in Class</h2>
-            <h3>Holisticly predominate extensible testing procedures for<br> reliable supply chains. Dynamically
-                innovate resource-<br>leveling customer service for state of the art customer<br> service.</h3>
-            <div class="button"><button>CLASSIFY IT</button></div>
-        </div>
-    </div>
+        <!-- function play() {
+            let audio_A= document.getElementById("audio_A");
+            audio_A.play();
+        } -->
 
-    <div class="fourth">
-        <div class="fourth-text">
-            <h2>Superior Quality</h2>
-            <h3>Holisticly predominate extensible testing procedures for<br> reliable supply chains. Dynamically
-                innovate resource-<br>leveling customer service for state of the art customer<br> service.</h3>
-            <div class="button"><button>TEST IT</button></div>
+        <div class="A">
+            <audio id="audio_S" src="./sounds/hihat.wav"></audio>
+            <button onclick="play_S()">
+                <h1>S</h1>
+                <h2>HIHAT</h2>
+            </button>
         </div>
-        <div class="fourth-img">
-            <img class="img-pic"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ5lEivGqTC3CMtXv6y2jtsIvvOvh5NM4yBs5qf_ydDLhplzFbnQ"
-                alt="셀카">
+
+        <div class="A">
+            <audio id="audio_D" src="./sounds/kick.wav"></audio>
+            <button onclick="play_D()">
+                <h1>D</h1>
+                <h2>KICK</h2>
+            </button>
         </div>
-    </div>
 
-    <div class="fifth">
-        <div class="fifth-1">Unleash</div>
-        <div class="fifth-2">Synergize</div>
-        <div class="fifth-3">Procratinate</div>
-    </div>
-
-    <div class="sixth">
-        <span class="glyphicon glyphicon-pushpin gi-3x"></span>
-        <div class="sixth-text">
-            <h2>Sanity Check</h2>
-            <h3>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate
-                resource-leveling<br> customer service for state of the art customer service.</h3>
-            <div class="button"><button>CHECK NOW</button></div>
+        <div class="A">
+            <audio id="audio_F" src="./sounds/openhat.wav"></audio>
+            <button onclick="play_F()">
+                <h1>F</h1>
+                <h2>OPENHAT</h2>
+            </button>
         </div>
-    </div>
 
-    <div class="seven">
-        <div class="seven-content">
-            <h3>Contact Us</h3>
-            <span class="glyphicon glyphicon-earphone gi-3x icon-margin"></span>
-            <h4>+1(23) 456 7890</h4>
-            <span class="glyphicon glyphicon-envelope gi-3x icon-margin"></span>
-            <h4>info@example.com</h4>
+        <div class="A">
+            <audio id="audio_G" src="./sounds/boom.wav"></audio>
+            <button onclick="play_G()">
+                <h1>G</h1>
+                <h2>BOOM</h2>
+            </button>
         </div>
-    </div>
 
-    <div class="eight">
-        <h4>Copyright © Example.com 2015</h4>
+        <div class="A">
+            <audio id="audio_H" src="./sounds/ride.wav"></audio>
+            <button onclick="play_H()">
+                <h1>H</h1>
+                <h2>RIDE</h2>
+            </button>
+        </div>
+
+        <div class="A">
+            <audio id="audio_J" src="./sounds/snare.wav"></audio>
+            <button onclick="play_J()">
+                <h1>J</h1>
+                <h2>SNARE</h2>
+            </button>
+        </div>
+
+        <div class="A">
+            <audio id="audio_K" src="./sounds/tom.wav"></audio>
+            <button onclick="play_K()">
+                <h1>K</h1>
+                <h2>TOM</h2>
+            </button>
+        </div>
+
+        <div class="A">
+            <audio id="audio_L" src="./sounds/tink.wav"></audio>
+            <button onclick="play_L()">
+                <h1>L</h1>
+                <h2>TINK</h2>
+            </button>
+        </div>
+
+
+
     </div>
 </body>
 
